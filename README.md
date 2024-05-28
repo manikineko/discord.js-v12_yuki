@@ -17,6 +17,8 @@
   </p>
 </div>
 
+### Please note that this project utilizes version 12 with newer API calls and enhanced intent support. It is based on an older version of discord.js, provided "as-is" by me. We have no affiliation or correlation with the official discord.js project.
+
 ## Table of contents
 
 - [About](#about)
