@@ -6,11 +6,7 @@
   <br />
   <p>
     
-  </p>
-  <p>
-    <a href="https://nodei.co/npm/discord.js/"><img src="https://nodei.co/npm/discord.js.png?downloads=true&stars=true" alt="npm installnfo" /></a>
-  </p>
-</div>
+
 
 ### Please note that this project utilizes version 12 with newer API calls and enhanced intent support. It is based on an older version of discord.js, provided "as-is" by me. We have no affiliation or correlation with the official discord.js project.
 
