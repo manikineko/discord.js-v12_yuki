@@ -8,10 +8,8 @@ class MessageCreateAction extends Action {
     const client = this.client;
     const channel = client.channels.cache.get(data.channel_id);
     if (channel) {
-      if(channel.messages){
       const existing = channel.messages.cache.get(data.id);
       if (existing) return { message: existing };
-      }
       const message = channel.messages.add(data);
       const user = message.author;
       let member = message.member;
