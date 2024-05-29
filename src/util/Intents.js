@@ -59,21 +59,14 @@ Intents.FLAGS = {
   DIRECT_MESSAGES: 1 << 12,
   DIRECT_MESSAGE_REACTIONS: 1 << 13,
   DIRECT_MESSAGE_TYPING: 1 << 14,
-  MESSAGE_CONTENT: 1 << 15,
-  GUILD_SCHEDULED_EVENTS: 1 << 16,
-  AUTO_MODERATION_CONFIGURATION: 1 << 20,
-  AUTO_MODERATION_EXECUTION: 1 << 21,
-  GUILD_MESSAGE_POLLS: 1 << 24,
-  DIRECT_MESSAGE_POLLS: 1 << 25
 };
-
 
 /**
  * Bitfield representing all privileged intents
  * @type {number}
  * @see {@link https://discord.com/developers/docs/topics/gateway#privileged-intents}
  */
-Intents.PRIVILEGED = Intents.FLAGS.GUILD_MEMBERS | Intents.FLAGS.GUILD_PRESENCES | Intents.FLAGS.GUILD_MESSAGES;
+Intents.PRIVILEGED = Intents.FLAGS.GUILD_MEMBERS | Intents.FLAGS.GUILD_PRESENCES;
 
 /**
  * Bitfield representing all intents combined
