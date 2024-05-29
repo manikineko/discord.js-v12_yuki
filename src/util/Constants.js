@@ -71,7 +71,7 @@ exports.DefaultOptions = {
       $browser: 'discord.js',
       $device: 'discord.js',
     },
-    version: 7  ,  // Updated API version
+    version: 7,  // Updated API version
   },
 
   /**
